@@ -93,21 +93,6 @@ sudo systemctl start mongod
 \`\`\`bash
 cd server
 cp .env.example .env
-\`\`\`
-Edit the `.env` file with your **local** backend configurations:
-\`\`\`env
-# Server Configuration
-PORT=5000
-NODE_ENV=development
-
-# MongoDB Configuration
-MONGODB_URI=mongodb://localhost:27017/smart-event-scheduler
-# OR for MongoDB Atlas:
-# MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/smart-event-scheduler
-
-# Client Configuration (Important for CORS in production)
-CLIENT_URL=http://localhost:3000
-\`\`\`
 
 #### Frontend Environment (`client/.env`)
 \`\`\`bash
@@ -133,19 +118,6 @@ npm run dev
 \`\`\`bash
 cd client
 npm run dev
-\`\`\`
-
-### 6. Access the Application Locally
-- **Frontend**: [http://localhost:3000](http://localhost:3000)
-- **Backend API**: [http://localhost:5000/api](http://localhost:5000/api)
-- **Health Check**: [http://localhost:5000/api/health](http://localhost:5000/api/health)
-
-## 🧪 Testing
-
-### Run Backend Tests
-\`\`\`bash
-cd server
-npm test
 \`\`\`
 
 ## 🤖 AI Categorization Logic
@@ -257,7 +229,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-Built with ❤️ by [Your Name] as part of a Full-Stack Engineering Intern coding task.
+Built with ❤️ by [Rahima Kharun] as part of a Full-Stack Engineering Intern coding task.
 
 ---
 
