@@ -1,4 +1,4 @@
-# 🗓️ Mini Event Scheduler with AI Categorization & MongoDB
+# 🗓️Smart Event Scheduler with AI Categorization & MongoDB
 
 A professional full-stack event scheduling application built with **React**, **TypeScript**, **Express**, **MongoDB**, and **Tailwind CSS**. Features intelligent AI-powered event categorization, responsive design, and a robust backend.
 
